@@ -18,7 +18,7 @@ import extraer_num as ex
 h = 0
 class HeavenBanBot:
     
-    def __init__(self, bot_credentials, chrome_driver_path):
+    def __init__(self, bot_credentials, chrome_driver_path="/usr/local/bin/chromedriver"):
         
         driver_path = chrome_driver_path
         chrome_options = Options()
